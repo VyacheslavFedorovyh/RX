@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OutputDocument>
+  <From>Наименование организации-отправителя</From>
+  <OutNumber>Регистрационный номер документа</OutNumber>
+  <OutDate>Дата регистрации документа</OutDate>
+  <DocumentID>Универсальный идентификатор документа</DocumentID>
+  <Recipient>Наименование организации-корреспондента</Recipient>
+  <To>ФИО Адресата</To>
+  <Address>Адрес организации-отправителя</Address>
+  <DepCode>Код департамента для обмена документами</DepCode>
+  <Subject>Заголовок документа</Subject>
+  <ReqType>Вид документа</ReqType>
+  <Stamp>Способ доставки</Stamp>
+  <Executor>ФИО и должность исполнителя</Executor>
+  <ExPhone>Контактный телефон исполнителя</ExPhone>
+  <Dop2>ФИО автора документа</Dop2>
+  <Dop2Post>Должность автора документа</Dop2Post>
+  <Attach>
+    <file Encoding="binary.base64" IsBinaryData="1" fileName="Наименование файла">Файл в кодировке base64</file>
+    <file Encoding="binary.base64" IsBinaryData="2" fileName="Наименование файла">Файл в кодировке base64</file>
+    <file Encoding="binary.base64" IsBinaryData="3" fileName="Наименование файла">Файл в кодировке base64</file>
+    <file Encoding="binary.base64" IsBinaryData="4" fileName="Наименование файла">Файл в кодировке base64</file>
+  </Attach>
+  <AttachSign>
+    <file Encoding="binary.base64" IsBinaryData="1" fileName="Наименование 			файла">Файл отсоединенной электронной подписи </file>
+  </AttachSign>
+  <Body>Текст документа</Body>
+  <Change>Признак изменения документа (для документов ПР)</Change>
+  <ChangeFields>
+    Перечень измененных полей документа(для документов 	ПР)
+  </ChangeFields>
+  <Certified>Отметка об электронной подписи</Certified>
+  <CertifiedDT>Дата подписания электронной подписью</CertifiedDT>
+  <CertifiedFIO>ФИО подписанта</CertifiedFIO>
+</OutputDocument>
